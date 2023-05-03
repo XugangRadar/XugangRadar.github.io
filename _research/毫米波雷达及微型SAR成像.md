@@ -8,7 +8,10 @@ order_number: 20
 header:
   og_image: "research/epr.png"
 ---
+<link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+<script src="/assets/js/swiper-bundle.min.js"></script>
 {% include toc %}
+
 ## 🚌车载毫米波4D点云成像
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
