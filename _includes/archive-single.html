@@ -1,5 +1,5 @@
 {% include base_path %}
-
+{% include toc.html %}
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
@@ -35,7 +35,7 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
+
     {% if post.read_time %}
     {% elsif post.read_time and post.collection == 'posts' %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -53,7 +53,7 @@
         </blockquote>
         </details>
       {% endif %}
-      
+
       <!-- citation and icon code -->
       <p>
       {% if post.citation %}
@@ -76,7 +76,7 @@
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
-    
+
     {% if post.excerpt and post.collection == 'research' and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
@@ -98,6 +98,6 @@
         </p>
       </p>
     {% endif %}
-    
+
   </article>
 </div>

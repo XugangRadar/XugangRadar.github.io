@@ -5,9 +5,9 @@ permalink: /research/
 author_profile: true
 header:
   og_image: "research/ecdf.png"
+toc: true
 ---
-
-My academic research falls into two main areas: 
+My academic research falls into two main areas:
 
 <nbsp>
 

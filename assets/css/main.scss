@@ -207,6 +207,7 @@ h1:before, .anchor:before {
         display: flex;
         width: 100%;
         order: 1;
+        margin-bottom: 30px;
         img {
             max-width: 800px;
             box-shadow: 3px 3px 6px #888;
@@ -269,121 +270,6 @@ h1:before, .anchor:before {
     line-height: 100%;
     margin-top: 10px;
 }
-
-// .paper-box_vertical {
-//     display: flex;
-//     flex-direction: column;
-//     border: 1px solid black;
-//     height: 90vh;
-
-//     .paper-box-image_vertical{
-//         justify-content: center;
-//         display: flex;
-//         width: 100%;
-//         order: 2;
-//         img {
-//             max-width: 400px;
-//             box-shadow: 3px 3px 6px #888;
-//             object-fit: cover;
-//         }
-//     }
-
-//     .paper-box-text_vertical{
-//         max-width: 100%;
-//         order: 1;
-//     }
-
-//     // @include breakpoint($medium) {
-//     //     .paper-box-image{
-//     //         justify-content: center;
-//     //         min-width: 200px;
-//     //         max-width: 40%;
-//     //         order: 1;
-//     //     }
-
-//     //     .paper-box-text{
-//     //         justify-content: center;
-//     //         padding-left: 2em;
-//     //         max-width: 60%;
-//     //         order: 2;
-//     //     }
-
-//     // }
-// }
-
-
-
-
-.card {
-    display: flex;
-    flex-direction: column;
-}
-
-.card__cover {
-    height: 20rem;
-    width: 100%;
-}
-
-.card__content {
-    /* Take available height */
-    flex: 1;
-}
-
-
-// .gallery {
-//   position: relative;
-//   z-index: 2;
-//   padding: 10px;
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: flex;
-//   -ms-flex-flow: row wrap;
-//       flex-flow: row wrap;
-//   -webkit-box-pack: justify;
-//       -ms-flex-pack: justify;
-//           justify-content: space-between;
-//   -webkit-transition: all .5s ease-in-out;
-//   transition: all .5s ease-in-out;
-// }
-// .gallery.pop {
-//   -webkit-filter: blur(10px);
-//           filter: blur(10px);
-// }
-// .gallery figure {
-//   -ms-flex-preferred-size: 33.333%;
-//       flex-basis: 33.333%;
-//   padding: 10px;
-//   overflow: hidden;
-//   border-radius: 10px;
-//   cursor: pointer;
-// }
-// .gallery figure img {
-//   width: 100%;
-//   border-radius: 10px;
-//   -webkit-transition: all .3s ease-in-out;
-//   transition: all .3s ease-in-out;
-// }
-// .gallery figure figcaption {
-//   display: none;
-// }
-
-
-
-// *{
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-// }
-
-// body{
-//     width: 100%;
-//     height: 100vh;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     background: #80ed99;
-// }
-
 .gallery{
     width: 90%;
     height: 40vh;
@@ -482,3 +368,38 @@ h1:before, .anchor:before {
     width: 100%;
     // background: gray;
 }
+
+/* 第三步：修改轮播图swiper的大小  （可选） */
+.swiper {
+width: 700px;
+height: 480px;
+margin: 50px auto;
+// max-width: 800px;
+box-shadow: 3px 3px 6px #888;
+object-fit: cover;
+margin-bottom: 30px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+    width: 700px;
+    height: 480px;
+}
+/*
+如果要更改轮播图的样式，
+    第一种方式可以直接选中对应的类名，进行修改
+    第二种方式：直接css文件修改（不推荐使用）
+*/
+.swiper-pagination-bullet{
+background-color: turquoise;
+// align-items: center;
+// justify-content: center;
+// width: 20px;
+// height: 20px;
+}
+

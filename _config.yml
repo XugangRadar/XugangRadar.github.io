@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Gang Xu"
   avatar           : "zhaopian.png"
-  bio              : "Ph.D., Associate Professor,<br>  Ph.D. Superviser"
+  bio              : "Ph.D., Associate Professor,<br>  Ph.D. Superviser <br>  Southeast University"
   location         : "Nanjing, China"
   employer         : "State Key Laboratory of <br>  Millimeter Waves"
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -98,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "phww.github.com"
+  github           : "XugangRadar.github"
   google_plus      :
   keybase          :
   instagram        :
@@ -166,6 +166,7 @@ incremental: false
 
 # Markdown Processing
 kramdown:
+  toc: true
   input: GFM
   hard_wrap: false
   auto_ids: true
