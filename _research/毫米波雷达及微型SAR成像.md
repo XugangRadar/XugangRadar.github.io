@@ -1,15 +1,13 @@
 ---
 title: "毫米波雷达及微型SAR成像"
 layout: single-portfolio
-excerpt: "<img src='/images/research/epr.png' alt=''>"
+# excerpt: "<img src='/images/research/epr.png' alt=''>"
 toc: true
 collection: research
 order_number: 20
-header:
-  og_image: "research/epr.png"
+# header:
+#   og_image: "research/epr.png"
 ---
-<link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
-<script src="/assets/js/swiper-bundle.min.js"></script>
 {% include toc %}
 
 ## 🚌车载毫米波4D点云成像
@@ -54,7 +52,7 @@ header:
 </div>
 <div class='paper-box-text_vertical' markdown="1">
 Hello World!!!!Hello World!!!!Hello World!!!!Hello
-<details>
+<details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
@@ -93,7 +91,7 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
           <div id="papertitle">
-          <font color="#FF0000">[2]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
+          <font color="#FF0000">[3]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
           <div id="authors">
           <b>Gang Xu</b>, Mengdao Xing, Lei Zhang</div><br>
           <div id="pubilsh">
