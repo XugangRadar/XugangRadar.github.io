@@ -1,8 +1,8 @@
 ---
-title: "雷达稀疏成像"
+title: "High-resolution Sparse Radar Imaging"
 layout: single-portfolio
 toc: true
-toc_title: "雷达稀疏成像"
+toc_title: "High-resolution Sparse Radar Imaging"
 # excerpt: "<img src='/images/research/epr.png' alt=''>"
 collection: research
 order_number: 10
@@ -10,8 +10,8 @@ order_number: 10
 #   og_image: "research/epr.png"
 ---
 {% include toc %}
-
-## Suvery
+We mainly focus on the sparse radar imaging from the concept of sparsity, low rank and deep priors, which aims at super-resolution, sparse aperure imaging, robust autofocusing, feature enhancement and etc.
+## I. Suvery
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div><div class="badge">GRSM 2022</div>
 <img src='/images/TGRS1.jpg' alt="sym" width="100%"></div></div>
@@ -30,12 +30,13 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 </div>
 </dl>
 
-## 🌍结构化低秩稀疏成像
+## II. Structured low-rank based sparse imaging
+
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
 <img src='/images/research/fig1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
-Hello World!!!!Hello World!!!!Hello World!!!!Hello
+Sparse ISAR imaging from the 2D compressive sampling using the structured low-rank method
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -82,12 +83,13 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
 </div>
 </div>
 
-## 📡压缩感知稀疏成像
+## III. Compressive sensing based sparse imaging
+
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
 <img src='/images/research/fig2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
-Hello World!!!!Hello World!!!!Hello World!!!!Hello
+Sparse aperture ISAR imaging using the compressive sensing method
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -151,7 +153,8 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
 </div>
 </div>
 
-## 📡稀疏自聚焦成像
+## IV. Sparsity-driven based autofocusing
+
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
 <div class="swiper">
@@ -193,7 +196,7 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
 </div>
 </div>
 <div class='paper-box-text_vertical' markdown="1">
-Hello World!!!!Hello World!!!!Hello World!!!!Hello
+Parametric sparse imaging approach for robust phase error correction and maneuvering target motion compensation
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -257,12 +260,12 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
 </div>
 </div>
 
-## 📡宽幅SAR稀疏成像
+## V. Advanced wide-swath sparse SAR imaging
+
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
 <img src='/images/research/fig(d).png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
-Hello World!!!!Hello World!!!!Hello World!!!!Hello
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -309,7 +312,8 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
 </div>
 </div>
 
-## 📡多维稀疏SAR特征增强成像
+## VI. Multidimensional feature-enhanced sparse SAR imaging
+
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
 <img src='/images/500x300.png' alt="sym" width="100%"></div></div>
