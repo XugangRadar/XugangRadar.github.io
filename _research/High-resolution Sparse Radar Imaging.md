@@ -12,10 +12,6 @@ order_number: 10
 {% include toc %}
 We mainly focus on the sparse radar imaging from the concept of sparsity, low rank and deep priors, which aims at super-resolution, sparse aperure imaging, robust autofocusing, feature enhancement and etc.
 ## I. Suvery
-<div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">GRSM 2022</div>
-<img src='/images/TGRS1.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text_vertical' markdown="1">
 <div id="papertitle">
 Sparse Synthetic Aperture Radar Imaging from Compressed Sensing and Machine Learning: Theories, Applications and Trends</div><br>
 <div id="authors">
@@ -33,7 +29,7 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 ## II. Structured low-rank based sparse imaging
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<div class='paper-box-image_vertical'><div>
 <img src='/images/research/fig1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 Sparse ISAR imaging from the 2D compressive sampling using the structured low-rank method
@@ -156,67 +152,30 @@ Sparse aperture ISAR imaging using the compressive sensing method
 ## IV. Sparsity-driven based autofocusing
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div>
-<div class="swiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="/images/research/fig(c)-1.png" alt="" /></div>
-        <div class="swiper-slide"><img src="/images/research/fig(c)-2.png" alt="" /></div>
-        <div class="swiper-slide"><img src="/images/research/fig(c)-3.png" alt="" /></div>
-    </div>
-    <!-- 如果需要分页器 -->
-    <div class="swiper-pagination"></div>
-    <!-- 如果需要导航按钮
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div> -->
-</div>
-<script>
-  var mySwiper = new Swiper ('.swiper', {
-    // direction: 'vertical', // 垂直切换选项
-    loop: true, // 循环模式选项
-    autoplay: {
-    delay: 3000,
-    stopOnLastSlide: false,
-    disableOnInteraction: false,
-    zoom : true,
-    },
-    // 如果需要分页器
-    pagination: {
-      el: '.swiper-pagination',
-      clickable :true,
-      dynamicBullets: true,
-    },
-    // 如果需要前进后退按钮
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    //   hideOnClick: true,
-    // },
-  })
-</script>
-</div>
-</div>
+<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<img src='/images/research/fig(c)-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 Parametric sparse imaging approach for robust phase error correction and maneuvering target motion compensation
-<details open>
-    <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
-        <span>
-          <div id="papertitle">
-          <font color="#FF0000">[1]</font>Enhanced ISAR Imaging and Motion Estimation with Parametric and Dynamic Sparse Bayesian Learning</div><br>
-          <div id="authors">
-          <b>Gang Xu</b>,Lei Yang, Guoan Bi, and Mengdao Xing</div><br>
-          <div id="pubilsh">
-          IEEE Transactions on Image Processing, vol. 25, no. 5, pp. 2005-2020, 2016.</div>
-          <dl>
-          <a href="https://baidu.com"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
-          <div class="link2" style="display: inline;"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()"><i class="fas fa-fw fa-quote-right zoom" aria-hidden="true"></i></a><div class="bibref" style="display: none;">
-          Gang Xu, Lei Yang, Guoan Bi, and Mengdao Xing, “Enhanced ISAR Imaging and Motion Estimation with Parametric and Dynamic Sparse Bayesian Learning,” IEEE Transactions on Computational Imaging, vol. 3, no. 4, pp. 940-952, 2017.
-          </div>
-          </div>
-          </dl>
-        </span>
-    </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+  <details open>
+  <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
+      <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+          <span>
+            <div id="papertitle">
+            <font color="#FF0000">[1]</font>Enhanced ISAR Imaging and Motion Estimation with Parametric and Dynamic Sparse Bayesian Learning</div><br>
+            <div id="authors">
+            <b>Gang Xu</b>,Lei Yang, Guoan Bi, and Mengdao Xing</div><br>
+            <div id="pubilsh">
+            IEEE Transactions on Image Processing, vol. 25, no. 5, pp. 2005-2020, 2016.</div>
+            <dl>
+            <a href="https://baidu.com"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+            <div class="link2" style="display: inline;"><a class="fakelink" onclick="$(this).siblings('.bibref').slideToggle()"><i class="fas fa-fw fa-quote-right zoom" aria-hidden="true"></i></a><div class="bibref" style="display: none;">
+            Gang Xu, Lei Yang, Guoan Bi, and Mengdao Xing, “Enhanced ISAR Imaging and Motion Estimation with Parametric and Dynamic Sparse Bayesian Learning,” IEEE Transactions on Computational Imaging, vol. 3, no. 4, pp. 940-952, 2017.
+            </div>
+            </div>
+            </dl>
+          </span>
+      </p>
+      <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
           <div id="papertitle">
           <font color="#FF0000">[2]</font>Maneuvering Target Imaging and Scaling by Using Sparse Inverse Synthetic Aperture</div><br>
@@ -251,12 +210,11 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
         </span>
     </p>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
-        <span>
-            <font color="#FF0000">[4]</font> Reserved.
-        </span>
+      <span>
+          <font color="#FF0000">[4]</font> Reserved.
+      </span>
     </p>
-</details>
-<!--  -->
+  </details>
 </div>
 </div>
 
