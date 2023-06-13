@@ -82,7 +82,7 @@ Sparse ISAR imaging from the 2D compressive sampling using the structured low-ra
 ## III. Compressive sensing based sparse imaging
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<div class='paper-box-image_vertical'><div>
 <img src='/images/research/fig2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 Sparse aperture ISAR imaging using the compressive sensing method
@@ -152,7 +152,7 @@ Sparse aperture ISAR imaging using the compressive sensing method
 ## IV. Sparsity-driven based autofocusing
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<div class='paper-box-image_vertical'><div>
 <img src='/images/research/fig(c)-1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 Parametric sparse imaging approach for robust phase error correction and maneuvering target motion compensation
@@ -221,7 +221,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 ## V. Advanced wide-swath sparse SAR imaging
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<div class='paper-box-image_vertical'><div>
 <img src='/images/research/fig(d).png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <details open>
@@ -273,7 +273,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 ## VI. Multidimensional feature-enhanced sparse SAR imaging
 
 <div class='paper-box_vertical'>
-<div class='paper-box-image_vertical'><div><div class="badge">TGRS 2022</div>
+<div class='paper-box-image_vertical'><div>
 <img src='/images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 Hello World!!!!Hello World!!!!Hello World!!!!Hello
