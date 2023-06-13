@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Gang Xu"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Gang Xu"
 description              : &description "Acdemicpage for Gang Xu"
