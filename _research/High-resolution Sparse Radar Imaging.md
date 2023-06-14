@@ -10,7 +10,10 @@ order_number: 10
 #   og_image: "research/epr.png"
 ---
 {% include toc %}
+<div id="maintext">
 We mainly focus on the sparse radar imaging from the concept of sparsity, low rank and deep priors, which aims at super-resolution, sparse aperure imaging, robust autofocusing, feature enhancement and etc.
+</div>
+
 ## I. Suvery
 <div id="papertitle">
 Sparse Synthetic Aperture Radar Imaging from Compressed Sensing and Machine Learning: Theories, Applications and Trends</div><br>
@@ -30,9 +33,14 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig1.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/fig1.png' alt="sym" width="100%">
+<div id="figtitle">Fig: ISAR imaging using 2D sparse sampling data (CRS, sparse sampling ratio is 1/4). (a) conventional RD, (b) L1-norm, (c) MC, (d) structured MC
+</div>
+</div></div>
 <div class='paper-box-text_vertical' markdown="1">
+<div id="maintext">
 Sparse ISAR imaging from the 2D compressive sampling using the structured low-rank method
+</div>
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -69,13 +77,12 @@ Sparse ISAR imaging from the 2D compressive sampling using the structured low-ra
           </dl>
         </span>
     </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+    <!-- <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
             <font color="#FF0000">[3]</font> Reserved.
         </span>
-    </p>
+    </p> -->
 </details>
-<!--  -->
 </div>
 </div>
 
@@ -83,9 +90,13 @@ Sparse ISAR imaging from the 2D compressive sampling using the structured low-ra
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig2.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/fig2.png' alt="sym" width="100%">
+<div id="figtitle">Fig: ISAR imaging of sparse aperture using sparse algorithms (sparse sampling ratio is 1/4). (a) CRS, (b) CGS. (the first column: MP, the second column: L1-norm, the third column: BCS, the forth column: structured BCS)</div>
+</div></div>
 <div class='paper-box-text_vertical' markdown="1">
+<div id="maintext">
 Sparse aperture ISAR imaging using the compressive sensing method
+</div>
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -139,13 +150,12 @@ Sparse aperture ISAR imaging using the compressive sensing method
           </dl>
         </span>
     </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+    <!-- <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
             <font color="#FF0000">[4]</font> Reserved.
         </span>
-    </p>
+    </p> -->
 </details>
-<!--  -->
 </div>
 </div>
 
@@ -153,9 +163,11 @@ Sparse aperture ISAR imaging using the compressive sensing method
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-1.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/fig(c).png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
+<div id="maintext">
 Parametric sparse imaging approach for robust phase error correction and maneuvering target motion compensation
+</div>
   <details open>
   <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
       <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -209,11 +221,11 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
           </dl>
         </span>
     </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+    <!-- <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
       <span>
           <font color="#FF0000">[4]</font> Reserved.
       </span>
-    </p>
+    </p> -->
   </details>
 </div>
 </div>
@@ -260,11 +272,11 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
           </dl>
         </span>
     </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+    <!-- <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
             <font color="#FF0000">[3]</font> Reserved.
         </span>
-    </p>
+    </p> -->
 </details>
 <!--  -->
 </div>
@@ -274,9 +286,15 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/500x300.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/fig-d.png' alt="sym" width="100%">
+<div id="figtitle">
+Fig: Imaging results of single building. (a) Optical image. (b)–(d) Three views of the proposed algorithm after eliminating double-bounce. (e) Result of the proposed algorithm after correcting double bounce. (f)–(h) Three views of the reference result provided in the dataset
+</div>
+</div></div>
 <div class='paper-box-text_vertical' markdown="1">
+<div id="miantext">
 Hello World!!!!Hello World!!!!Hello World!!!!Hello
+</div>
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
     <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
@@ -330,12 +348,11 @@ Hello World!!!!Hello World!!!!Hello World!!!!Hello
           </dl>
         </span>
     </p>
-    <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
+    <!-- <p style="text-indent: -2.0rem;margin-left: 3.0rem;width: 90%">
         <span>
             <font color="#FF0000">[4]</font> Reserved.
         </span>
-    </p>
+    </p> -->
 </details>
-<!--  -->
 </div>
 </div>

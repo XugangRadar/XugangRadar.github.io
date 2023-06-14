@@ -185,11 +185,31 @@ h1:before, .anchor:before {
     line-height: 120%;
 }
 #publish {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
     max-width: 750px;
     word-wrap: break-word;
     white-space: normal;
     line-height: 120%;
+}
+
+#maintext {
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    font-weight: 450;
+    font-size: 20px;
+    max-width: 980px;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.5;
+}
+
+#figtitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  max-width: 960px;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 20px;
 }
 
 .paper-box_vertical {
@@ -209,10 +229,12 @@ h1:before, .anchor:before {
         order: 1;
         margin-bottom: 30px;
         img {
-            max-width: 800px;
-            max-height: 400px;
+            max-width: 960px;
+            max-height: 600px;
             box-shadow: 3px 3px 6px #888;
             object-fit: cover;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 
@@ -222,55 +244,36 @@ h1:before, .anchor:before {
         max-width: 100%;
         order: 2;
     }
-
-    // @include breakpoint($medium) {
-    //     .paper-box-image_vertical{
-    //         justify-content: left;
-    //         min-width: 200px;
-    //         max-width: 90%;
-    //         order: 1;
-    //     }
-
-    //     .paper-box-text_vertical{
-    //         justify-content: left;
-    //         align-items: left;
-    //         padding-left: 2em;
-    //         max-width: 100%;
-    //         order: 2;
-    //     }
-
-    // }
-
 }
 
-.paper-box_vertical .papertitle {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 24px;
-    max-width: 750px;
-    word-wrap: break-word;
-    white-space: normal;
-    line-height: 100%;
-    margin-top: 10px;
-}
+// .paper-box_vertical .papertitle {
+//     font-family: 'Times New Roman', Times, serif;
+//     font-weight: bold;
+//     font-size: 24px;
+//     max-width: 750px;
+//     word-wrap: break-word;
+//     white-space: normal;
+//     line-height: 100%;
+//     margin-top: 10px;
+// }
 
-.paper-box_vertical .authors {
-    font-size: 18px;
-    max-width: 750px;
-    word-wrap: break-word;
-    white-space: normal;
-    font-style: italic;
-    line-height: 100%;
-    margin-top: 10px;
-}
-.paper-box_vertical .publish {
-    font-size: 14px;
-    max-width: 750px;
-    word-wrap: break-word;
-    white-space: normal;
-    line-height: 100%;
-    margin-top: 10px;
-}
+// .paper-box_vertical .authors {
+//     font-size: 18px;
+//     max-width: 750px;
+//     word-wrap: break-word;
+//     white-space: normal;
+//     font-style: italic;
+//     line-height: 100%;
+//     margin-top: 10px;
+// }
+// .paper-box_vertical .publish {
+//     font-size: 14px;
+//     max-width: 750px;
+//     word-wrap: break-word;
+//     white-space: normal;
+//     line-height: 100%;
+//     margin-top: 10px;
+// }
 .gallery{
     width: 90%;
     height: 40vh;

@@ -37,7 +37,7 @@ M. Jiang , G. Xu, H. Pei, Z. Feng, S. Ma, H. Zhang, and W. Hong, "4D High-Resolu
 <img src='/images/research/research2/fig2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div id="papertitle">
-<font color="#FF0000">[2]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
+<font color="#FF0000">[1]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
 <div id="authors">
 Bangjie Zhang, <b>Gang Xu</b>, Rui Zhou, Hui Zhang and Wei Hong,</div><br>
 <div id="pubilsh">
@@ -59,7 +59,7 @@ B. Zhang, G. Xu, R. Zhou, H. Zhang and W. Hong, “Multi-channel Back-projection
 <img src='/images/research/research2/fig2.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div id="papertitle">
-<font color="#FF0000">[3]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
+<font color="#FF0000">[1]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>
 <div id="authors">
 <b>Gang Xu</b>, Mengdao Xing, Lei Zhang</div><br>
 <div id="pubilsh">
