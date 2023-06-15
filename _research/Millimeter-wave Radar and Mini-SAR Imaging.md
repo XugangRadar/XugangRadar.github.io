@@ -10,7 +10,7 @@ order_number: 20
 ---
 {% include toc %}
 
-## I. Automotive millimeter-wave 4D point cloud imaging
+## I. Automotive Millimeter-wave 4D Point Cloud Imaging
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
 <img src='/images/research/research2/fig1.png' alt="sym" width="100%"></div></div>
@@ -31,7 +31,7 @@ M. Jiang , G. Xu, H. Pei, Z. Feng, S. Ma, H. Zhang, and W. Hong, "4D High-Resolu
 </div>
 </div>
 
-## II. Automotive mini-SAR imaging
+## II. Automotive Mini-SAR Imaging
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
 <img src='/images/research/research2/fig2.png' alt="sym" width="100%"></div></div>
@@ -53,10 +53,15 @@ B. Zhang, G. Xu, R. Zhou, H. Zhang and W. Hong, “Multi-channel Back-projection
 </div>
 </div>
 
-## III. Airborne mini-SAR imaging
+## III. Airborne Mini-SAR Imaging
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/research2/fig2.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/research2/fig3-a.png' alt="sym" width="100%">
+<img src='/images/research/research2/fig3-b.png' alt="sym" width="100%">
+<div id="figtitle">
+Processed images. (a) Using the modified SPGA MOCO. (b) Using the proposed MOCO approach. (c) Zoom of Fig. 10(a). (d) Zoom of Fig. 10(b)
+</div>
+</div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div id="papertitle">
 <font color="#FF0000">[1]</font>Multi-channel Back-projection Algorithm for mmWave Automotive MIMO SAR Imaging with Doppler-division Multiplexing</div><br>

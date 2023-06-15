@@ -29,12 +29,14 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 </div>
 </dl>
 
-## II. Structured low-rank based sparse imaging
+## II. Structured Low-rank Based Sparse Imaging
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig1.png' alt="sym" width="100%">
-<div id="figtitle">Fig: ISAR imaging using 2D sparse sampling data (CRS, sparse sampling ratio is 1/4). (a) conventional RD, (b) L1-norm, (c) MC, (d) structured MC
+<img src='/images/research/fig1-a.png' alt="sym" width="100%">
+<img src='/images/research/fig1-b.png' alt="sym" width="100%">
+<div id="figtitle">
+<p>Fig: ISAR imaging using 2D sparse sampling data (CRS, sparse sampling ratio is 1/4). (a) conventional RD, (b) L1-norm, (c) MC, (d) structured MC</p>
 </div>
 </div></div>
 <div class='paper-box-text_vertical' markdown="1">
@@ -86,7 +88,7 @@ Sparse ISAR imaging from the 2D compressive sampling using the structured low-ra
 </div>
 </div>
 
-## III. Compressive sensing based sparse imaging
+## III. Compressive Sensing Based Sparse Imaging
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
@@ -159,11 +161,12 @@ Sparse aperture ISAR imaging using the compressive sensing method
 </div>
 </div>
 
-## IV. Sparsity-driven based autofocusing
+## IV. Sparsity-driven Based Autofocusing
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c).png' alt="sym" width="100%"></div></div>
+<img src='/images/research/fig(c).png' alt="sym" width="100%">
+</div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div id="maintext">
 Parametric sparse imaging approach for robust phase error correction and maneuvering target motion compensation
@@ -230,7 +233,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 </div>
 </div>
 
-## V. Advanced wide-swath sparse SAR imaging
+## V. Advanced Wide-swath Sparse SAR Imaging
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
@@ -282,7 +285,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 </div>
 </div>
 
-## VI. Multidimensional feature-enhanced sparse SAR imaging
+## VI. Multidimensional Feature-enhanced Sparse SAR Imaging
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
