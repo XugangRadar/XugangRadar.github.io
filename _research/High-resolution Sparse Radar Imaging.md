@@ -33,8 +33,8 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig1-a.png' alt="sym" width="50%">
-<img src='/images/research/fig1-b.png' alt="sym" width="50%">
+<img src='/images/research/fig1-a.png' alt="sym" width="100%">
+<img src='/images/research/fig1-b.png' alt="sym" width="100%">
 <div id="figtitle">
 <p>Fig: ISAR imaging using 2D sparse sampling data (CRS, sparse sampling ratio is 1/4). (a) conventional RD, (b) L1-norm, (c) MC, (d) structured MC</p>
 </div>
@@ -164,7 +164,7 @@ Sparse aperture ISAR imaging using the compressive sensing method
 ## IV. Sparsity-driven Based Autofocusing
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-6.png' alt="sym" width="75%">
+<img src='/images/research/fig(c)-6.png' alt="sym" width="100%">
 <div id="figtitle">
 <p>Fig: Sparsity-based autofocusing of ISAR imaging under three different types of phase error (low order, high order and random)</p>
 </div>
@@ -172,7 +172,7 @@ Sparse aperture ISAR imaging using the compressive sensing method
 <div class='paper-box-text_vertical' markdown="1">
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-4.png' alt="sym" width="75%">
+<img src='/images/research/fig(c)-4.png' alt="sym" width="100%">
 <div id="figtitle">
 <p>Fig: 稀疏自焦距与常规方法比较</p>
 </div>
@@ -180,7 +180,7 @@ Sparse aperture ISAR imaging using the compressive sensing method
 <div class='paper-box-text_vertical' markdown="1">
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-5.png' alt="sym" width="70%">
+<img src='/images/research/fig(c)-5.png' alt="sym" width="100%">
 <div id="figtitle">
 <p>Fig: 机动目标成像</p>
 </div>
@@ -255,7 +255,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(d).png' alt="sym" width="80%"></div></div>
+<img src='/images/research/fig(d).png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
