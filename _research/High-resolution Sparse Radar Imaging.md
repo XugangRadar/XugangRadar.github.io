@@ -164,17 +164,26 @@ Sparse aperture ISAR imaging using the compressive sensing method
 ## IV. Sparsity-driven Based Autofocusing
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-1.png' alt="sym" width="100%">
+<img src='/images/research/fig(c)-1.png' alt="sym" width="80%">
+<div id="figtitle">
+<p>Fig: Sparsity-based autofocusing of ISAR imaging under three different types of phase error (low order, high order and random)</p>
+</div>
 </div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-2.png' alt="sym" width="100%">
+<img src='/images/research/fig(c)-2.png' alt="sym" width="60%">
+<div id="figtitle">
+<p>Fig: 稀疏自焦距与常规方法比较</p>
+</div>
 </div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/fig(c)-3.png' alt="sym" width="100%">
+<img src='/images/research/fig(c)-3.png' alt="sym" width="50%">
+<div id="figtitle">
+<p>Fig: 机动目标成像</p>
+</div>
 </div></div>
 
 
