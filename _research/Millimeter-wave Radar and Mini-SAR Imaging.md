@@ -13,7 +13,7 @@ order_number: 20
 ## I. Automotive Millimeter-wave 4D Point Cloud Imaging
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/research2/fig1.png' alt="sym" width="100%"></div></div>
+<img src='/images/research/research2/fig10.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <div id="papertitle">
 <font color="#FF0000">[1]</font>4D High-Resolution Imagery of Point Clouds for Automotive mmWave Radar</div><br>
