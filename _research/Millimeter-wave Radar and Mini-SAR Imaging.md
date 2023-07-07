@@ -56,8 +56,7 @@ B. Zhang, G. Xu, R. Zhou, H. Zhang and W. Hong, “Multi-channel Back-projection
 ## III. Airborne Mini-SAR Imaging
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<img src='/images/research/research2/fig3-a.png' alt="sym" width="100%">
-<img src='/images/research/research2/fig3-b.png' alt="sym" width="100%">
+<img src='/images/research/research2/fig5.png' alt="sym" width="100%">
 <div id="figtitle">
 Processed images. (a) Using the modified SPGA MOCO. (b) Using the proposed MOCO approach. (c) Zoom of Fig. 10(a). (d) Zoom of Fig. 10(b)
 </div>
