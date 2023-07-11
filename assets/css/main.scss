@@ -214,37 +214,38 @@ h1:before, .anchor:before {
 
 .paper-box_vertical {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     flex-direction: column;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
+
+    .paper-box-image_vertical{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        order: 1;
+        margin-bottom: 30px;
+        img {
+            width:100px;
+            height:100px;
+            max-width: 960px;
+            max-height: 600px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+
+    .paper-box-text_vertical{
+        justify-content: left;
+        align-items: left;
+        max-width: 100%;
+        order: 2;
+    }
 }
 
-.paper-box-image_vertical {
-    justify-content: center; /* 水平居中对齐 */
-    align-items: center; /* 垂直居中对齐 */
-    display: flex;
-    width: 100%;
-    order: 1;
-    margin-bottom: 30px;
-}
-
-.paper-box-image_vertical img {
-    max-width: 960px;
-    max-height: 600px;
-    box-shadow: 3px 3px 6px #888;
-    object-fit: cover;
-    margin: 0 auto; /* 图片水平居中对齐 */
-}
-
-.paper-box-text_vertical {
-    justify-content: left;
-    align-items: left;
-    max-width: 100%;
-    order: 2;
-}
 
 
 // .paper-box_vertical .papertitle {
