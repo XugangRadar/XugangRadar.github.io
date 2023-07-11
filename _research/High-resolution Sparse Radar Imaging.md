@@ -33,10 +33,7 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
-<div style="
-    margin: auto;
-    text-align: center;
-    ">
+<div style="margin: auto;text-align: center;">
 <img src='/images/research/fig1-a.png' alt="sym" width="500">
 <img src='/images/research/fig1-b.png' alt="sym" width="500">
 
