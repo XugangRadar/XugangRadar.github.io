@@ -264,7 +264,7 @@ Parametric sparse imaging approach for robust phase error correction and maneuve
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
 <div style="text-align: center;">
-<img src='/images/research/fig(d).png' alt="sym" width="500"></div></div></div>
+<img src='/images/research/fig(d).png' alt="sym" width="600"></div></div></div>
 <div class='paper-box-text_vertical' markdown="1">
 <details open>
     <summary><font color="#FF0000" font-size="16px">Related Work</font></summary>
