@@ -220,13 +220,8 @@ h1:before, .anchor:before {
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    .center-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-      }
+    text-align: center;
+    
     .paper-box-image_vertical{
         justify-content: center;
         align-items: center;
