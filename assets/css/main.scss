@@ -242,6 +242,13 @@ h1:before, .anchor:before {
         max-width: 100%;
         order: 2;
     }
+    .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
 }
 
 // .paper-box_vertical .papertitle {
