@@ -36,7 +36,7 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 <div style="
     margin: auto;
     text-align: center;
-    >
+    ">
 <img src='/images/research/fig1-a.png' alt="sym" width="500">
 <img src='/images/research/fig1-b.png' alt="sym" width="500">
 
