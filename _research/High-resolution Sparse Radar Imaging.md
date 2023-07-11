@@ -33,8 +33,11 @@ G. Xu, B. Zhang, H. Yu, J. Chen, M. Xing, W. Hong, "Sparse Synthetic Aperture Ra
 
 <div class='paper-box_vertical'>
 <div class='paper-box-image_vertical'><div>
+<div style="text-align: center;">
 <img src='/images/research/fig1-a.png' alt="sym" width="500">
 <img src='/images/research/fig1-b.png' alt="sym" width="500">
+</div>
+
 
 <div id="figtitle">
 <p>Fig: ISAR imaging using 2D sparse sampling data (CRS, sparse sampling ratio is 1/4). (a) conventional RD, (b) L1-norm, (c) MC, (d) structured MC</p>
