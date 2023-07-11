@@ -212,37 +212,27 @@ h1:before, .anchor:before {
   padding: 10px 20px;
 }
 
-.paper-box_vertical {
+.paper-box-vertical {
     display: flex;
-    justify-content: left;
-    align-items: left;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-items: center; /* 将图片在垂直方向上居中对齐 */
+    justify-content: center; /* 将图片在水平方向上居中对齐 */
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    text-align: center;
-    
-    .paper-box-image_vertical{
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 100%;
-        order: 1;
-        margin-bottom: 30px;
-        img {
-            max-width: 960px;
-            max-height: 600px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
-    }
+}
 
-    .paper-box-text_vertical{
-        justify-content: left;
-        align-items: left;
-        max-width: 100%;
-        order: 2;
-    }
+.paper-box-image_vertical {
+    width: 100%;
+    order: 1;
+    margin-bottom: 30px;
+    text-align: center; /* 图片水平居中对齐 */
+}
+
+.paper-box-image_vertical img {
+    max-width: 960px;
+    max-height: 600px;
+    box-shadow: 3px 3px 6px #888;
+    object-fit: cover;
 }
 
 // .paper-box_vertical .papertitle {
