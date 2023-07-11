@@ -214,8 +214,8 @@ h1:before, .anchor:before {
 
 .paper-box_vertical {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
