@@ -7,7 +7,7 @@ header:
   og_image: "research/ecdf.png"
 toc: true
 ---
-My academic research falls into two main categories:
+Our academic research falls into two main categories:
 
 1) High-resolution Sparse Radar Imaging
 
