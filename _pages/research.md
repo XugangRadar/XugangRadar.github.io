@@ -20,6 +20,8 @@ Our academic research falls into two main categories:
 ■ Advanced wide-swath sparse SAR imaging
 
 ■ Multidimensional feature-enhanced sparse SAR imaging
+<include src="/_research/template2.htm"></include>
+
 <br>
 <br>
 
@@ -32,6 +34,8 @@ Our academic research falls into two main categories:
 ■ Airborne mini-SAR imaging
 
 <nbsp>
+
+
 
 {% include base_path %}
 
