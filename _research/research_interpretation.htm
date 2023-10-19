@@ -1,5 +1,5 @@
 ---
-title: "Read More..."
+title: "Links: Read More..."
 layout: single-portfolio
 # excerpt: "<img src='/images/research/epr.png' alt=''>"
 collection: research
@@ -105,35 +105,38 @@ div.WordSection1
   border-bottom:solid #4D7C2B 3.0pt;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal style='text-indent:28.0pt;line-height:25.0pt'><span
   lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman",serif'>Learning
-  advanced semantic representations on unlabeled SAR\ISAR images with an unsupervised
+  advanced semantic representations on unlabeled SAR/ISAR images with an unsupervised
   learning scheme can address the lack of labeled samples for radar recognition
-  systems. Based on contrastive learning, we integrate deformable convolution
-  into the main encoder of the contrastive learning model to achieve highly
-  precise classification of deformation ISAR images <span style='color:red'>[1]</span>.
-  Meanwhile, a linear evaluation protocol is proposed to monitor the
-  unsupervised learning processing and evaluate the proposed method on the
-  MSTAR dataset. We also transfer the learned knowledge from the MSTAR dataset
-  to the OpenSARship dataset, which achieves better results than training from scratch<span style='color:red'>[2]</span>.</span></p>
+  systems. Based on contrastive learning, in the MSTAR dataset, samples with
+  the same category can automotive gather together and separate from the rest
+  in the embedding space. The pre-trained encoder is capable of embedding raw
+  SAR images into a more discriminative feature space, thus facilitating the
+  convergence of the downstream SAR target classifier during the fine-tuning
+  stage. We also transfer the learned knowledge from the MSTAR dataset to the
+  OpenSARship dataset, which achieves better results than training from scratch
+  <span style='color:red'>[1]</span>.<span style='color:red'> </span>Meanwhile,
+  we integrate deformable convolution into the base encoder of the contrastive
+  learning model to achieve higher precise classification of deformation ISAR
+  images <span style='color:red'>[2]</span><span style='color:black'>.</span></span></p>
   </td>
  </tr>
  <tr>
   <td width=553 colspan=3 valign=top style='width:414.8pt;border:solid #4D7C2B 3.0pt;
   border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
-  char'><span lang=EN-US><img width=909 height=389 id="图片 2"
-  src="/images/research/interpretation/image002.jpg"></span></p>
+  char'><b><span lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman",serif'><img
+  width=990 height=682 id="图片 4"
+  src="/images/research/interpretation/image002.png"></span></b></p>
   <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
   char'><b><span lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman",serif'>Fig.
-  1 The optimization flow of the encoder in CLISAR-Net[1].</span></b><span
-  lang=EN-US><img width=672 height=267 id="图片 1"
-  src="/images/research/interpretation/image003.jpg"></span></p>
-  <p class=MsoNormal align=center style='text-align:center;line-height:25.0pt;
-  layout-grid-mode:char'><b><span lang=EN-US style='font-size:14.0pt;
-  font-family:"Times New Roman",serif'>Fig. 2 Efficiency of the contrastive
-  learning method. (a) highly-precise classification results on a few of
-  labeled train set than other supervised methods[1]. (b) The encoder can learn
-  more generalized and high-level representations, making knowledge transfer
-  between different datasets easier[2].</span></b></p>
+  1. Unsupervised training MSATR dataset with contrastive learning method and
+  fine-tuning the learn knowledge to OpenSARship dataset [1].</span></b></p>
+  <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
+  char'><span lang=EN-US><img width=909 height=389 id="图片 2"
+  src="/images/research/interpretation/image003.png"></span></p>
+  <p class=MsoNormal align=center style='text-align:center;layout-grid-mode:
+  char'><b><span lang=EN-US style='font-size:14.0pt;font-family:"Times New Roman",serif'>Fig.
+  2. The optimization flow of the encoder in CLISAR-Net [2].</span></b></p>
   </td>
  </tr>
  <tr>
@@ -150,17 +153,17 @@ div.WordSection1
   background:#DBDBDB;padding:0cm 5.4pt 0cm 5.4pt'>
   <p class=MsoListParagraph style='margin-left:9.9pt;text-indent:-9.9pt;
   line-height:25.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
-  14.0pt;color:black'>[1] Ni, Peishuang, Yanyang Liu, Hao Pei, Haoze Du, Haolin
-  Li, and <b>Gang Xu</b>*, &quot;CLISAR-Net: A Deformation-Robust ISAR Image
-  Classification Network Using Contrastive Learning, &quot; <i>Remote Sensing</i>, vol. 15, no. 1, p. 33, Dec. 2022, doi: 10.3390/rs15010033.</span></p>
+  14.0pt;color:black'>[1] Hao Pei, Mingjie Su, <b>Gang Xu</b>*, Mengdao Xing
+  and Wei Hong, &quot;Self-Supervised Feature Representation for SAR Image
+  Target Classification Using Contrastive Learning,&quot; <i>IEEE Journal of
+  Selected Topics in Applied Earth Observations and Remote Sensing</i>, vol.
+  16, pp. 9461-9473, 2023, doi: 10.1109/JSTARS.2023.3321769.</span></p>
   <p class=MsoListParagraph style='margin-left:9.9pt;text-indent:-9.9pt;
   line-height:25.0pt;layout-grid-mode:char'><span lang=EN-US style='font-size:
-  14.0pt;color:black'>[2] Hao Pei, Mingjie Su, <b>Gang Xu</b>*, Mengdao Xing
-  and Wei Hong, &quot;Self-supervised Feature Representation for SAR Image
-  Target Classification Using Contrastive Learning,&quot; <i>IEEE Journal of
-  Selected Topics in Applied Earth Observations and Remote Sensing</i>, Oct. 2023</span><span
-  style='font-size:14.0pt;font-family:宋体;color:black'>，</span><span lang=EN-US
-  style='font-size:14.0pt;color:black'>doi: 10.1109/JSTARS.2023.3321769.</span></p>
+  14.0pt;color:black'>[2] Peishuang Ni, Yanyang Liu, Hao Pei, Haoze Du, Haolin
+  Li, and <b>Gang Xu</b>*, &quot;CLISAR-Net: A Deformation-Robust ISAR Image
+  Classification Network Using Contrastive Learning, &quot; <i>Remote Sensing</i>,
+  vol. 15, no. 1, p. 33, Dec. 2022, doi: 10.3390/rs15010033.</span></p>
   </td>
  </tr>
 </table>
